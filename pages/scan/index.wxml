@@ -1,0 +1,7 @@
+<view class="container">  
+  <view class="title">Privacy Policy</view>
+  <view class="content">Your information will not be disclosed to any third party unless you have given your consent to such disclosure. You may at any time ask us to refrain from sending you marketing messages by sending us an email with the words UNSUBSCRIBE in the subject box or by telephoning us. If we contact you by email each time you receive a message you will also have the option to decline to receive further information of that type from us.  </view>
+  <image class="scan" src="../../images/scan_button.png" bindtap="click"></image>
+  <view class="note1">Click here to agree privacy</view>
+  <view class="note2">policy & start scan</view>
+</view>  

@@ -1,0 +1,8 @@
+<view class="wrap">
+  <view class="ptitle">Who we are?</view>
+  <view class="image-wrap"><image mode="widthFix" src="../../images/banner_about.jpg"></image></view>
+  <view class="pcontent">Our association is  a  nonprofit organization.  We are dedicated to creating a fair and responsible market by providing the media, legislative bodies and consumers with education, communication and research. Our goal is to help people to stay healthy and regulate the industry.</view>
+  <view><text decode="true">&nbsp;</text></view>
+  <view class="pcontent">We are dedicated to educating the public and government officials about public health benefits . Our association is not a trade group and we will never speak for any particular businesses, including our sponsors and partners.</view>
+</view>
+

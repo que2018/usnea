@@ -1,0 +1,69 @@
+.container {
+  width: 100vw;
+  height:100vh;
+  background: url('https://usnea.org/api/image/bg.gif') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  width:130px;
+  height:130px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.bottom {
+  background: url('https://usnea.org/api/image/banner1.png') no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 80px;
+  bottom: 0px;
+  position: absolute;
+}
+.bottom-left {
+  width: 50vw;
+  height:80px;
+  float: left;
+}
+.bottom-right {
+  width: 50vw;
+  height: 80px;
+  float: right;
+}
+.bottom-left .btitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 14px;
+}
+.bottom-left .stitle {
+  font-size: 9px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.bottom-right .scan-btn {
+  height: 35px;
+  width: 155px;
+  margin-top: 20px;
+  background: #ffffff;
+  color: #000;
+}
+.bottom-right .scan-logo {
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+.bottom-right .scan-text {
+  float: right;  
+  width: 120px;
+  height: 50px;
+  line-height: 35px;
+  font-size: 13px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,14 @@
+<view class="container">
+  <image class="eimag" src="../../images/error.png"></image>
+  <view class="etext">Product is not not verified</view>
+  <view class="tr">
+    <view class="td" bindtap="back">
+      <image class="eoption-img" src="../../images/back.png"></image>
+      <view class="eoption-text">Go Back</view>
+    </view>
+    <view class="td">
+     <image class="eoption-img" src="../../images/mail.png"></image>
+     <view class="eoption-text">Contact Us</view>
+    </view>
+  </view>
+</view>

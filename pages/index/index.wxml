@@ -1,0 +1,18 @@
+<view class="container">  
+  <view class="center">
+    <image class="logo" src="../../images/logo.png"></image>
+  </view>
+  <view class="bottom">
+    <view class="bottom-left">
+      <view class="btitle">Is is authentic?</view>
+      <view class="stitle">Check your product right away!</view>
+      <view class="stitle">Scan the QR code now.</view>
+    </view>
+    <view class="bottom-right">
+      <view class="scan-btn">
+        <image class="scan-logo" src="../../images/qr.png"></image>
+        <view class="scan-text" bindtap="click">Scan Now!</view>
+      </view>
+    </view>
+  </view>
+</view>  

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/scan/index",
+    "pages/use/index",
+    "pages/about/index",
+    "pages/logs/logs",
+    "pages/success/index",
+    "pages/fail/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "selectedIconPath": "images/scan.png",
+        "iconPath": "images/scan.png",
+        "pagePath": "pages/scan/index",
+        "text": "Scan"
+      },
+      {
+        "selectedIconPath": "images/use.png",
+        "iconPath": "images/use.png",
+        "pagePath": "pages/use/index",
+        "text": "Use"
+      },
+      {
+        "selectedIconPath": "images/about.png",
+        "iconPath": "images/about.png",
+        "pagePath": "pages/about/index",
+        "text": "About"
+      }
+    ]
+  }  
+}

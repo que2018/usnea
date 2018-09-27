@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="title">How to use?</view>
+  <view>
+    <view class="ptitle"><view decode="true" class="number">1</view> Get our product ready</view>
+    <view class="pcontent">please get the product out of package, and check the QR code sticker on the back of bottle</view>
+    <view class="line"></view>
+  </view>
+  <view>
+    <view class="ptitle"><text decode="true" class="number">2</text> Use this app</view>
+    <view class="pcontent">Please open this app and click "scan" botton. Don't forget to allow this app to access your cellphones' camera</view>
+    <view class="line"></view>
+  </view>
+  <view>
+    <view class="ptitle"><text decode="true" class="number">3</text>Identify authentic product</view>
+    <view class="pcontent">This app will tell you product name and when this product made from factory</view>
+    <view class="pcontent">If not, it will show you failed notic. Please contact seller.</view>
+    <view class="line"></view>
+  </view>
+</view>

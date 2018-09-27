@@ -1,0 +1,34 @@
+<view class="cointaier">
+  <image class="pimg" src="{{image}}"></image>
+  <view class="pname">{{name}}</view>
+  <view>
+    <view class="ptr">
+      <view class="ptd">SKU</view>
+      <view class="ptd">{{sku}}</view>
+    </view>
+    <view class="ptr">
+      <view class="ptd">Date</view>
+      <view class="ptd">{{date}}</view>
+    </view>
+    <view class="ptr">
+      <view class="ptd">Expire</view>
+      <view class="ptd">{{expire}}</view>
+    </view>
+    <view class="ptr">
+      <view class="ptd">Place</view>
+      <view class="ptd">{{place}}</view>
+    </view> 
+  </view>
+  <view class="pwrap">
+    <image class="simg" src="../../images/success.png"></image>
+    <view class="pmsg">Product is verified</view>
+  </view>
+  <view class="table">
+    <block wx:for="{{scanHistories}}" wx:key="{{code}}">
+      <view class="tr">
+        <view class="td">{{item.sn}}</view>
+        <view class="td">{{item.add_date}}</view>
+      </view>
+    </block>
+  </view>
+</view>
